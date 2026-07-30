@@ -12,7 +12,7 @@ int main(){
     cout<<"Enter a number: "<<endl;
     cin>>b;
 
-    if(a>b){
+    if(a<b){
         smallest=a;
     }
     else{
@@ -23,9 +23,7 @@ int main(){
         if(a%i==0 && b%i==0){
             gcd=i;
         }
-
-        cout<<gcd;
     }
+    cout<<gcd;
     return 0;
-
 }
